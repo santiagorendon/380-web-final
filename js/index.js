@@ -172,7 +172,7 @@ function draw(){
     if(binArray[i] * fontSize >  canvas.height && Math.random() > 0.98){
       flashCounter++;
       console.log(flashCounter);
-      if(flashCounter > 72){
+      if(flashCounter > 71){
         started = true;
       }
       binArray[i] = 0;
